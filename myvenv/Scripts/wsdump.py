@@ -80,7 +80,7 @@ class RawInput:
         if six.PY3:
             line = input(prompt)
         else:
-            line = raw_input(prompt)
+            line = input(prompt)
 
         if ENCODING and ENCODING != "utf-8" and not isinstance(line, six.text_type):
             line = line.decode(ENCODING).encode("utf-8")
