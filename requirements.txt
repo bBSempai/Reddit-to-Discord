@@ -1,5 +1,3 @@
-flask
-pytest
 praw
 requests
 atomicwrites==1.4.0
