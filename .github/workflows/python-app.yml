@@ -34,5 +34,4 @@ jobs:
     - name: Test with pytest
       run: |
         pip install pytest
-        import PYTHONPATH=src
         pytest
