@@ -1,9 +1,7 @@
 praw
 requests
-atomicwrites==1.4.0
 attrs==20.2.0
 click==7.1.2
-colorama==0.4.3
 Flask==1.1.2
 iniconfig==1.0.1
 itsdangerous==1.1.0
