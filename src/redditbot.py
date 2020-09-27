@@ -1,6 +1,6 @@
 from flask import Flask
 
-reddit_to_discord = Flask(__name__)
+redditbot = Flask(__name__)
 
 @reddit_to_discord.route("/")
 def index():
