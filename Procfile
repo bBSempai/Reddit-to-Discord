@@ -1,1 +1,1 @@
-worker: python redditbot.py
+worker: python tests/test_app.py
