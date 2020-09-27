@@ -38,12 +38,7 @@ jobs:
         pip install pytest
         export PYTHONPATH=src
         pytest
-<<<<<<< HEAD
-<<<<<<< HEAD
-      - name: Deploy to Heroku
-=======
     - name: Deploy to Heroku
->>>>>>> f7dde10a82765dd6e8c4b376baf4a3d6adf1e179
       env:
         HEROKU_API_TOKEN: ${{ secrets.HEROKU_API_TOKEN }}
         HEROKU_APP_NAME: ${{ secrets.HEROKU_APP_NAME }}
@@ -51,5 +46,3 @@ jobs:
       run: |
         git remote add heroku https://heroku:$HEROKU_API_TOKEN@git.heroku.com/$HEROKU_APP_NAME.git
         git push heroku HEAD:master -f
-=======
->>>>>>> 96426282faf195bd7a1ee150cd5d7b61e8ab9938
