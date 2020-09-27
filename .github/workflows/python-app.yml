@@ -17,7 +17,7 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - run: |
-      git fetch --prune --unshallow
+        git fetch --prune --unshallow
     - name: Set up Python 3.8
       uses: actions/setup-python@v2
       with:
@@ -39,6 +39,7 @@ jobs:
         export PYTHONPATH=src
         pytest
 <<<<<<< HEAD
+<<<<<<< HEAD
       - name: Deploy to Heroku
 =======
     - name: Deploy to Heroku
@@ -50,3 +51,5 @@ jobs:
       run: |
         git remote add heroku https://heroku:$HEROKU_API_TOKEN@git.heroku.com/$HEROKU_APP_NAME.git
         git push heroku HEAD:master -f
+=======
+>>>>>>> 96426282faf195bd7a1ee150cd5d7b61e8ab9938

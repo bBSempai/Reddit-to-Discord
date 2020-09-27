@@ -1,1 +1,1 @@
-worker: python reddit_to_discord.py
+worker: python redditbot.py
