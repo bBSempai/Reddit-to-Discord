@@ -92,4 +92,4 @@ def index():
                                 return "YESS"
 
 if __name__ == "__main__":
-    reddit_to_discord.run()
+    redditbot.run()
