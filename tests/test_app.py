@@ -1,4 +1,4 @@
-from reddit_to_discord import index
+from redditbot import index
 
 
 def test_index():
