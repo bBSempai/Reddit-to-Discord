@@ -9,7 +9,7 @@ embed_title = "New post!"
 limit = 42
 
 # Add subreddits to track. You can use as much as subreddit you want.
-subreddits = ['DarkMemesForDarkHumou' , 'DarkMemesAndHumor' , 'MakeMeSuffer']
+subreddits = ['MakeMeSuffer' , 'DarkMemesAndHumor']
 
 # Reddit information
 username = "bB_SeNpai"
