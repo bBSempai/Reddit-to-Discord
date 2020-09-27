@@ -2,7 +2,7 @@ from flask import Flask
 
 redditbot = Flask(__name__)
 
-@reddit_to_discord.route("/")
+@redditbot.route("/")
 def index():
                             import praw
                             import time
